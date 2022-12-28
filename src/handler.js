@@ -67,7 +67,7 @@ const addNewBook = (request, h) => {
 
   const response = h.response({
     status: 'error',
-    message: 'Failed to add book',
+    message: 'Buku gagal ditambahkan',
   });
   response.code(500);
   return response;
